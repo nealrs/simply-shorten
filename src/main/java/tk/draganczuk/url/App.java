@@ -23,7 +23,7 @@ public class App {
 		// No need to auth in dev
 		if (System.getenv("dev") == null) {
 			// Authenticate
-			before("/api/*", Filters.createAuthFilter());
+			//before("/api/*", Filters.createAuthFilter());
 		}
 
 		get("/", (req, res) -> {
