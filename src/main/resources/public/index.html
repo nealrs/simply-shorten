@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simply Shorten</title>
 
@@ -15,6 +15,7 @@
         .container {
             max-width: 950px;
             margin: 20px auto auto;
+            padding: 0 20px;
         }
 
         table {
@@ -30,13 +31,13 @@
             <legend>Add new URL</legend>
             <div class="pure-control-group">
                 <label for="longUrl">Long URL</label>
-                <input type="url" name="longUrl" id="longUrl" placeholder="Long URL" required/>
+                <input type="url" name="longUrl" id="longUrl" placeholder="Long URL" required size="35"/>
             </div>
             <div class="pure-control-group">
                 <label for="shortUrl">Short URL (Optional). Only letters, number dashes and underscores
                     permitted</label>
                 <input type="text" name="shortUrl" id="shortUrl" placeholder="Short URL (optional)"
-                       pattern="[a-z0-9_-]+"/>
+                       pattern="[a-z0-9_-]+" size="35"/>
             </div>
             <div class="pure-controls">
                 <button class="pure-button pure-button-primary">Submit</button>
