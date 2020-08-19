@@ -1,3 +1,5 @@
+.
+
 ![Docker Pulls](https://img.shields.io/docker/pulls/draganczukp/simply-shorten?style=for-the-badge)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/draganczukp/simply-shorten?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/draganczukp/simply-shorten?style=for-the-badge)
